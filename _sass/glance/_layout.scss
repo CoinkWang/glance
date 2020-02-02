@@ -1,0 +1,83 @@
+/**
+ * Site header
+ */
+.site-header {
+  margin: $base-global-margin;
+  min-height: $spacing-unit * 1.865;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+  margin: $base-global-margin;
+  padding: $spacing-unit * 0.5 0;
+  text-align: center;
+}
+
+/**
+ * Page content
+ */
+.page-content {
+  padding: $spacing-unit 0;
+  // Let footer keeping fixed on bottom
+  flex: 1 0 auto;
+}
+
+/**
+ * Links
+ */
+ a {
+  color: $link-base-color;
+  text-decoration: none;
+
+  &:visited {
+    color: $link-visited-color;
+  }
+
+  &:hover {
+    color: $text-color;
+  }
+}
+
+/**
+ * Post links
+ */
+.post-link {
+  display: block;
+  @include relative-font-size(1.5);
+  a {
+    // Clean the underline from paperCSS 
+    background-image: none;
+  }
+}
+
+/**
+ * Clean links
+ */
+ .clean-link {
+  // Clean the underline from paperCSS 
+  background-image: none;
+}
+
+/**
+ * Post subtitles
+ */
+.post-subtitle{
+  @include relative-font-size(0.8);
+}
+
+/**
+ * Button to page top
+ */
+.to-top-btn {
+  padding: .6em 1em;
+  background: #fff;
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+}

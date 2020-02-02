@@ -1,6 +1,7 @@
 # glance
 
 under construction.
+A Hand-drawn style jekyll theme based on minima && PaperCSS.
 
 ## Installation
 

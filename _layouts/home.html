@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h3 class="page-heading">{{ page.title }}</h3>
+  {%- endif -%}
+
+  {{ content }}
+
+  {% assign posts = site.posts %}
+
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h4 class="post-list-heading">{{ page.list_title }}</h4>
+    {%- endif -%}
+    
+    {%- assign date_format = site.glance.date_format | default: "%b %-d, %Y" -%}
+
+    {%- for post in posts -%}
+      <p class="post-link">
+        <span class="badge post-badge">{{ post.date | date: date_format }}</span>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+
+          {%- if site.show_subtitle -%}
+            <span class="post-subtitle">
+              {{ post.subtitle }}
+            </span>
+          {%- endif -%}
+
+        </a>
+      </p>
+    {%- endfor -%}
+  {%- endif -%}
+
+</div>

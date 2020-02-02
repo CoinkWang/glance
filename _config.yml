@@ -1,0 +1,77 @@
+title: Your awesome site name
+copyright_time: 2015-2020
+author:
+  name: GitHub User
+  email: your-email@domain.com
+description: > # this means to ignore newlines until "show_subtitle:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+show_subtitle: true # set to true to show subtitle on the homepage
+
+permalink: /:title.html
+
+# date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+glance:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer (TODO)
+  social_links:
+    # twitter: jekyllrb
+    # github:  jekyll
+    # rss: rss
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Friends (TODO)
+friends: [
+  {
+    title: "My friend Bob",
+    href: "https://example.com"
+  },
+  {
+    title: "My friend Alice",
+    href: "https://example.com"
+  },
+]
+
+# Build settings
+theme: glance
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+#  - jekyll-paginate
