@@ -19,8 +19,8 @@ layout: default
     {%- assign date_format = site.glance.date_format | default: "%b %-d, %Y" -%}
 
     {%- for post in posts -%}
+    <span class="badge post-badge">{{ post.date | date: date_format }}</span>
       <p class="post-link">
-        <span class="badge post-badge">{{ post.date | date: date_format }}</span>
         <a href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
 
