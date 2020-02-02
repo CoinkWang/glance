@@ -6,7 +6,7 @@ $brand-color-dark:      darken($brand-color, 25%) !default;
 
 $text-color:            #111 !default;
 $background-color:      #fdfdfd !default;
-$code-background-color: #eef !default;
+$code-background-color: #e6e7e9 !default;
 
 $link-base-color:       #111 !default;
 $link-visited-color:    lighten($link-base-color, 20%) !default;
@@ -17,6 +17,14 @@ $table-header-bg-color: lighten($brand-color, 43%) !default;
 $table-header-border:   lighten($brand-color, 36%) !default;
 $table-border-color:    $brand-color-light !default;
 
+$paper-blue:     #0071de;
+$paper-blue-light:  #deefff;
+$paper-green:    #86a361;
+$paper-green-light: #d0dbc2;
+$paper-yellow:   #ddcd45;
+$paper-yellow-light:#f5f0c6;
+$paper-red:      #a7342d;
+$paper-red-light:   #f0cbc9;
 
 @import
   "glance/initialize",

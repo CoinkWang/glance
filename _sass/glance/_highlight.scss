@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-// Solarized skin
-// ==============
 // Created by Sander Voerman <mailto:sander@savoerman.nl> using the Solarized
 // color scheme by Ethan Schoonover <https://ethanschoonover.com/solarized>.
+
+// Mixed with paperCSS by Coink
 
 // Color scheme
 // ------------
@@ -17,6 +17,7 @@ $sol-base0:    #839496;  // 60 -06 -03
 $sol-base1:    #93a1a1;  // 65 -05 -02
 $sol-base2:    #eee8d5;  // 92 -00  10
 $sol-base3:    #fdf6e3;  // 97  00  10
+
 $sol-yellow:   #b58900;  // 60  10  65
 $sol-orange:   #cb4b16;  // 50  50  55
 $sol-red:      #dc322f;  // 50  65  45
@@ -26,32 +27,20 @@ $sol-blue:     #268bd2;  // 55 -10 -45
 $sol-cyan:     #2aa198;  // 60 -35 -05
 $sol-green:    #859900;  // 60 -20  65
 
+$paper-blue:     #0071de;
+$paper-blue-light:  #deefff;
+$paper-green:    #86a361;
+$paper-green-light: #d0dbc2;
+$paper-yellow:   #ddcd45;
+$paper-yellow-light:#f5f0c6;
+$paper-red:      #a7342d;
+$paper-red-light:   #f0cbc9;
+
 $sol-mono3:    $sol-base3;
 $sol-mono2:    $sol-base2;
 $sol-mono1:    $sol-base1;
 $sol-mono00:   $sol-base00;
 $sol-mono01:   $sol-base01;
-
-
-// Minima color variables
-// ----------------------
-
-$brand-color:           $sol-mono1 !default;
-$brand-color-light:     mix($sol-mono1, $sol-mono3) !default;
-$brand-color-dark:      $sol-mono00 !default;
-
-$text-color:            $sol-mono01 !default;
-$background-color:      $sol-mono3 !default;
-$code-background-color: $sol-mono2 !default;
-
-$link-base-color:       $sol-blue !default;
-$link-visited-color:    mix($sol-blue, $sol-mono00) !default;
-
-$table-text-color:      $sol-mono00 !default;
-$table-zebra-color:     mix($sol-mono2, $sol-mono3) !default;
-$table-header-bg-color: $sol-mono2 !default;
-$table-header-border:   $sol-mono1 !default;
-$table-border-color:    $sol-mono1 !default;
 
 
 // Syntax highlighting styles
@@ -60,7 +49,7 @@ $table-border-color:    $sol-mono1 !default;
 .highlight {
   .c     { color: $sol-mono1; font-style: italic } // Comment
   .err   { color: $sol-red } // Error
-  .k     { color: $sol-mono01; font-weight: bold } // Keyword
+  .k     { color: $paper-blue; font-weight: bold } // Keyword
   .o     { color: $sol-mono01; font-weight: bold } // Operator
   .cm    { color: $sol-mono1; font-style: italic } // Comment.Multiline
   .cp    { color: $sol-mono1; font-weight: bold } // Comment.Preproc
@@ -78,12 +67,12 @@ $table-border-color:    $sol-mono1 !default;
   .gs    { color: $sol-mono01; font-weight: bold } // Generic.Strong
   .gu    { color: $sol-mono1 } // Generic.Subheading
   .gt    { color: $sol-red } // Generic.Traceback
-  .kc    { color: $sol-mono01; font-weight: bold } // Keyword.Constant
-  .kd    { color: $sol-mono01; font-weight: bold } // Keyword.Declaration
-  .kp    { color: $sol-mono01; font-weight: bold } // Keyword.Pseudo
-  .kr    { color: $sol-mono01; font-weight: bold } // Keyword.Reserved
+  .kc    { color: $paper-blue; font-weight: bold } // Keyword.Constant
+  .kd    { color: $paper-blue; font-weight: bold } // Keyword.Declaration
+  .kp    { color: $paper-blue; font-weight: bold } // Keyword.Pseudo
+  .kr    { color: $paper-blue; font-weight: bold } // Keyword.Reserved
   .kt    { color: $sol-violet; font-weight: bold } // Keyword.Type
-  .m     { color: $sol-cyan } // Literal.Number
+  .m     { color: $paper-green } // Literal.Number
   .s     { color: $sol-magenta } // Literal.String
   .na    { color: $sol-cyan } // Name.Attribute
   .nb    { color: $sol-blue } // Name.Builtin
