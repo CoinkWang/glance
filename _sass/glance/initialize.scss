@@ -14,10 +14,10 @@ $spacing-unit:     30px !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    1000px !default;
+$content-width:    1000px + (2 * $spacing-unit) !default;
 
 $on-palm:          600px !default;
-$on-laptop:        1000px !default;
+$on-laptop:        800px !default;
 
 $on-medium:        $on-palm !default;
 $on-large:         $on-laptop !default;

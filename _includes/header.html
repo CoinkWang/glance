@@ -3,8 +3,8 @@
   {%- assign page_paths = site.header_pages | default: default_paths -%}
   {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
   <nav class="border split-nav">  <!-- add 'fixed' to 'nav' => fix the nav to the top of page -->
-    <div class="nav-brand">
-      <h3><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h3>
+    <div class="nav-brand" style="max-width: 75%;">
+      <h4><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h4>
     </div>
     <div class="collapsible">
       {%- if titles_size > 0 -%}
