@@ -3,13 +3,53 @@ layout: default
 ---
 
 <article>
-
   <header>
-    <h2>{{ page.title | escape }}</h2>
+    {%- if page.title -%}
+      <h2>{{ page.title | escape }}</h2>
+    {%- endif -%}
   </header>
 
   <div>
     {{ content }}
   </div>
 
+  {%- if page.works.name -%}
+    <h3>{{ page.works.name | escape }}</h3>
+  {%- endif -%}
+  <div class="works-card-container">
+  {%- if page.works -%}
+    {% for work in page.works.data %}
+    <div class="card works-card">
+      {%- if work[1].imgsrc -%}
+        <img src={{ work[1].imgsrc | escape }}  alt="Card image">
+      {%- endif -%}
+      <div class="card-body">
+        {%- if work[1].title -%}
+          <h4 class="card-title">{{ work[1].title | escape }} 
+        {%- endif -%}
+          {%- if work[1].tags -%}
+            {% for tag in work[1].tags %}
+              <!-- different tags -->
+              <!-- <span class="badge ">{{ tag | escape }} </span> -->
+              <!-- <span class="badge secondary">{{ tag | escape }} </span> -->
+              <span class="badge success">{{ tag | escape }} </span>
+              <!-- <span class="badge warning">{{ tag | escape }} </span> -->
+              <!-- <span class="badge danger">{{ tag | escape }} </span> -->
+            {% endfor %}
+          {%- endif -%}
+        </h4>
+        {%- if work[1].subtitle -%}
+          <h5 class="card-subtitle">{{ work[1].subtitle | escape }}</h5>
+        {%- endif -%}
+        {%- if work[1].description -%}
+          <p class="card-text">{{ work[1].description | escape }}</p>
+        {%- endif -%}
+        {%- if work[1].button_text -%}
+          <a href="{{ work[1].link | escape }}" class="clean-link"><button>{{ work[1].button_text | escape }}</button></a>
+        {%- endif -%}
+      </div>
+    </div>
+    {% endfor %}
+  {%- endif -%}
+  </div>
 </article>
