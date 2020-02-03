@@ -6,8 +6,12 @@ info:
     email: coinkwang@qq.com
 works: 
     name: Works # Can be empty
+    # project name could be same, I'm using work1,work2... to avoid the conflict.
+    # So in _layouts/about.html we need to get data like this: 
+    # {% for work in page.works.data %}
+    #   {{ work[1].title | escape }} 
     data:
-        work1: 
+        work_0: 
             title: Glacne
             tags: [CSS,Jekyll]
             subtitle: A clean jekyll theme based on PaperCSS.
@@ -15,7 +19,7 @@ works:
             link: https://github.com/CoinkWang/glance
             button_text: Github
             imgsrc: https://picsum.photos/512
-        work2: 
+        work_whatever: 
             title: Example
             tags: [JavaScript]
             subtitle: cool! cooler! coolest!
