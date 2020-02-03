@@ -10,7 +10,7 @@ layout: default
     {%- if page.subtitle -%}
       <p>{{ page.subtitle | escape }}</p>
     {%- endif -%}
-    
+
     <p class="article-meta">
       {%- assign date_format = site.glance.date_format | default: "%b %-d, %Y" -%}
       <time datetime="{{ page.date | date_to_xmlschema }}">
@@ -26,6 +26,15 @@ layout: default
   </header>
 
   <div>
+    {%- if page.alert.content -%}
+      {%- if page.alert.type -%}
+        <div class="alert {{ page.alert.type }}" >{{ page.alert.content }}</div>
+      {%- endif -%}
+      {%- if page.alert.type == nil -%}
+        <div class="alert">{{ page.alert.content }}</div>
+      {%- endif -%}
+      
+    {%- endif -%}
     {{ content }}
   </div>
 
