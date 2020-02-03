@@ -1,7 +1,7 @@
 @charset "UTF-8";
 // @import url(https://fonts.googleapis.com/css?family=Neucha|Patrick+Hand+SC);
 
-/* incase that cannot connect to google */
+// incase that cannot connect to google (Coink)
 @import url(../../assets/css/fonts.css);
 
 .text-primary {
@@ -674,7 +674,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Patrick Hand SC",sans-serif;
+  // font-family: "Patrick Hand SC",sans-serif;
+  // The "Patrick Hand SC" font can be confused cause it only has upper case letters (Coink)
+  font-family: Neucha,sans-serif; 
   font-weight: 400
 }
 h1 {

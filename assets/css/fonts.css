@@ -11,17 +11,3 @@
          url('../fonts/neucha-v11-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/neucha-v11-latin_cyrillic-regular.svg#Neucha') format('svg'); /* Legacy iOS */
   }
-  
-/* patrick-hand-sc-regular - latin_vietnamese_latin-ext */
-@font-face {
-    font-family: 'Patrick Hand SC';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/patrick-hand-sc-v7-latin_vietnamese_latin-ext-regular.eot'); /* IE9 Compat Modes */
-    src: local('Patrick Hand SC'), local('PatrickHandSC-Regular'),
-         url('../fonts/patrick-hand-sc-v7-latin_vietnamese_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/patrick-hand-sc-v7-latin_vietnamese_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/patrick-hand-sc-v7-latin_vietnamese_latin-ext-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/patrick-hand-sc-v7-latin_vietnamese_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/patrick-hand-sc-v7-latin_vietnamese_latin-ext-regular.svg#PatrickHandSC') format('svg'); /* Legacy iOS */
-  }
