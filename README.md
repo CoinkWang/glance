@@ -3,6 +3,8 @@
 under construction.
 A Hand-drawn style jekyll theme based on minima && PaperCSS.
 
+Online Preview: [Glance](http://coink.wang/glance/)
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
