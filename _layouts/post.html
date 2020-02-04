@@ -27,8 +27,21 @@ layout: default
 
   <div>
     {%- if page.alert.content -%}
-      {%- if page.alert.type -%}
-        <div class="alert {{ page.alert.type }}" >{{ page.alert.content }}</div>
+    <!-- Not to insert to class directly -->
+      {%- if page.alert.type == 'alert-primary' -%}
+        <div class="alert alert-primary" >{{ page.alert.content }}</div>
+      {%- endif -%}
+      {%- if page.alert.type == 'alert-secondary' -%}
+        <div class="alert alert-secondary" >{{ page.alert.content }}</div>
+      {%- endif -%}
+      {%- if page.alert.type == 'alert-success' -%}
+        <div class="alert alert-success" >{{ page.alert.content }}</div>
+      {%- endif -%}
+      {%- if page.alert.type == 'alert-warning' -%}
+        <div class="alert alert-warning" >{{ page.alert.content }}</div>
+      {%- endif -%}
+      {%- if page.alert.type == 'alert-danger' -%}
+        <div class="alert alert-danger" >{{ page.alert.content }}</div>
       {%- endif -%}
       {%- if page.alert.type == nil -%}
         <div class="alert">{{ page.alert.content }}</div>
