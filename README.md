@@ -3,7 +3,7 @@
 A Hand-drawn style jekyll theme based on PaperCSS.
 Some codes are learned from theme minima.
 
-Online Preview: [Glance](http://coink.wang/glance/
+Online Preview: [Glance](http://coink.wang/glance/)
 
 ![preview](screenshot.png)
 
