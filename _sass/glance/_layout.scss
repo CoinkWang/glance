@@ -100,3 +100,25 @@
   width: 20rem;
   margin: 1rem 0;
 }
+
+
+/**
+ * links container
+ */
+.friend-links-container{
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  -webkit-justify-content: space-evenly !important;
+  -moz-justify-content:space-evenly;
+}
+
+.friend-links{
+  min-width: 10rem;
+  margin: 1rem 0;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  justify-content: center;
+}

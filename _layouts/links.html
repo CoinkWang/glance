@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<article>
+  <header>
+    {%- if page.title -%}
+      <h2>{{ page.title | escape }}</h2>
+    {%- endif -%}
+  </header>
+
+  <div>
+    {{ content }}
+  </div>
+
+  <div class="friend-links-container">
+  {%- if page.links -%}
+    {% for link in page.links.data %}
+    <div class="friend-links">
+      <a class="clean-link" href={{ link[1].link }}>
+        <button popover-top={{ link[1].popover }}>
+          {{ link[1].name }}
+        </button>
+      </a>
+    </div> 
+    {% endfor %}
+  {%- endif -%}
+  </div>
+</article>
