@@ -1,14 +1,13 @@
 # coding: utf-8
-# frozen_string_literal: true
 
 Gem::Specification.new do |spec|
   spec.name          = "glance"
-  spec.version       = "1.0.0"
+  spec.version       = "1.1.0"
   spec.authors       = ["CoinkWang"]
   spec.email         = ["coinkwang@qq.com"]
 
-  spec.summary       = "A loney jekyll theme."
-  spec.homepage      = "https://coink.wang/works/jekyll-theme-glance"
+  spec.summary       = "A clean jekyll theme based on PaperCSS."
+  spec.homepage      = "https://github.com/CoinkWang/glance"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }

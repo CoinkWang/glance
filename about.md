@@ -1,9 +1,6 @@
 ---
 layout: about
 title: About Me
-info: 
-    name: Coink
-    email: coinkwang@qq.com
 works: 
     name: Works # Can be empty
     # project name could be same, I'm using work1,work2... to avoid the conflict.
@@ -36,3 +33,5 @@ works:
 <!-- If you want to customize components => _layouts/about.html -->
 
 Here you can done some description & display your works/photos.
+
+My name is Coink, Contact me at: coinkwang[at]qq[dot]com.

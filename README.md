@@ -1,9 +1,11 @@
 # glance
 
-under construction.
-A Hand-drawn style jekyll theme based on minima && PaperCSS.
+A Hand-drawn style jekyll theme based on PaperCSS.
+Some codes are learned from theme minima.
 
-Online Preview: [Glance](http://coink.wang/glance/)
+Online Preview: [Glance](http://coink.wang/glance/
+
+![preview](screenshot.png)
 
 ## Installation
 
@@ -29,8 +31,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
-OK I ll do it later.
+You can edit basic info and settings in `_config.yml`.
+
+For the pages like `links` and `about`, the templates can be customized by editing `_layouts/links.html` and `_layouts/about.html`, datas in these pages are in `links.md` and `about.md`
+
 
 ## Contributing
 
