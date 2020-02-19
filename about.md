@@ -9,14 +9,14 @@ works:
     #   {{ work[1].title | escape }} 
     data:
         work_0: 
-            title: Glacne
+            title: Glance
             tags: [CSS,Jekyll]
             subtitle: A clean jekyll theme based on PaperCSS.
             description: Im a description, so I am looooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooong
             link: https://github.com/CoinkWang/glance
             button_text: Github
             imgsrc: https://picsum.photos/512
-        work_whatever: 
+        work_1: 
             title: Example
             tags: [JavaScript]
             subtitle: cool! cooler! coolest!
@@ -24,7 +24,7 @@ works:
             link: https://example.com
             button_text: Let's goooo
             imgsrc: https://picsum.photos/768
-        # work3: 
+        # work_whatever: 
 
 
 
