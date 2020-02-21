@@ -15,7 +15,7 @@ works:
             description: Im a description, so I am looooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooong
             link: https://github.com/CoinkWang/glance
             button_text: Github
-            imgsrc: https://picsum.photos/256
+            imgsrc: https://picsum.photos/768
         work_1: 
             title: Example
             tags: [JavaScript]
@@ -23,7 +23,7 @@ works:
             description: Im a description, so I am also looooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooong
             link: https://example.com
             button_text: Let's goooo
-            imgsrc: https://picsum.photos/768
+            imgsrc: https://picsum.photos/640
         work_2: 
             title: Example
             tags: [JavaScript]
@@ -31,39 +31,7 @@ works:
             description: Im a description, so I am also looooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooong
             link: https://example.com
             button_text: Let's goooo
-            imgsrc: https://picsum.photos/128
-        work_3: 
-            title: Glance
-            tags: [CSS,Jekyll]
-            subtitle: A clean jekyll theme based on PaperCSS.
-            description: Im a description, so I am looooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooong
-            link: https://github.com/CoinkWang/glance
-            button_text: Github
-            imgsrc: https://picsum.photos/256
-        work_4: 
-            title: Example
-            tags: [JavaScript]
-            subtitle: cool! cooler! coolest!
-            description: Im a description, so I am also looooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooong
-            link: https://example.com
-            button_text: Let's goooo
-            imgsrc: https://picsum.photos/768
-        work_5: 
-            title: Example
-            tags: [JavaScript]
-            subtitle: cool! cooler! coolest!
-            description: Im a description, so I am also looooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooong
-            link: https://example.com
-            button_text: Let's goooo
-            imgsrc: https://picsum.photos/128
-        work_6: 
-            title: Example
-            tags: [JavaScript]
-            subtitle: cool! cooler! coolest!
-            description: Im a description, so I am also looooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooo ooooong
-            link: https://example.com
-            button_text: Let's goooo
-            imgsrc: https://picsum.photos/128
+            imgsrc: https://picsum.photos/512
         # work_whatever: 
 
 
