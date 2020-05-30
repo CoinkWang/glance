@@ -50,11 +50,16 @@
 .post-link {
   display: block;
   @include relative-font-size(1.5);
-  a {
-    // Clean the underline from paperCSS 
-    background-image: none;
-  }
 }
+
+/**
+ * Post badge
+ */
+ .post-badge {
+  float: right;
+  font-size: 50% !important;
+}
+
 
 /**
  * Clean links
