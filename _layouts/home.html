@@ -20,7 +20,7 @@ layout: default
 
     {%- for post in posts -%}
       <p class="post-link">
-        <a href="{{ post.url | relative_url }}" class="clean-link" target="_blank">
+        <a href="{{ post.url | relative_url }}" class="clean-link">
           {{ post.title | escape }}
 
           {%- if site.show_subtitle -%}
