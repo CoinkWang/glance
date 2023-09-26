@@ -5,10 +5,10 @@ layout: default
 
   <header>
     {%- if page.title -%}
-      <h3>{{ page.title | escape }}</h3>
+      <h3 class="article-title">{{ page.title | escape }}</h3>
     {%- endif -%}
     {%- if page.subtitle -%}
-      <p>{{ page.subtitle | escape }}</p>
+      <p class="text-lead">{{ page.subtitle | escape }}</p>
     {%- endif -%}
 
     <p class="article-meta">
